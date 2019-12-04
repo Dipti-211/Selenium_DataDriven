@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="6" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Bank Manager Login Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Add Customer button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Add Customer button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Add Customer button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Add Customer button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Failure Caught]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46139" started-at="2019-11-25T09:19:51Z" finished-at="2019-11-25T09:20:37Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46139" started-at="2019-11-25T09:19:51Z" finished-at="2019-11-25T09:20:37Z">
+      <class name="com.AS.testcases.OpenAccount">
+        <test-method status="FAIL" signature="openAccount()[pri:0, instance:com.AS.testcases.OpenAccount@6b9651f3]" name="openAccount" duration-ms="9683" started-at="2019-11-25T14:50:27Z" finished-at="2019-11-25T14:50:37Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.AS.testcases.OpenAccount.openAccount(OpenAccount.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Failure Caught]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openAccount -->
+      </class> <!-- com.AS.testcases.OpenAccount -->
+      <class name="com.AS.baseclass.BaseClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.AS.baseclass.BaseClass@2c039ac6]" name="setUp" is-config="true" duration-ms="78610" started-at="2019-11-25T14:48:33Z" finished-at="2019-11-25T14:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.AS.baseclass.BaseClass@2c039ac6]" name="tearDown" is-config="true" duration-ms="1411" started-at="2019-11-25T14:50:38Z" finished-at="2019-11-25T14:50:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.AS.baseclass.BaseClass -->
+      <class name="com.AS.testcases.BankManagerLogin">
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.AS.testcases.BankManagerLogin@38bc8ab5]" name="Login" duration-ms="5404" started-at="2019-11-25T14:49:51Z" finished-at="2019-11-25T14:49:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Bank Manager Login Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- com.AS.testcases.BankManagerLogin -->
+      <class name="com.AS.testcases.AddCustomer">
+        <test-method status="PASS" signature="addNewCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.AS.testcases.AddCustomer@687080dc]" name="addNewCustomer" duration-ms="4216" started-at="2019-11-25T14:50:18Z" data-provider="dp" finished-at="2019-11-25T14:50:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dipti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hgfh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Add Customer button clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="addNewCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.AS.testcases.AddCustomer@687080dc]" name="addNewCustomer" duration-ms="763" started-at="2019-11-25T14:50:23Z" data-provider="dp" finished-at="2019-11-25T14:50:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jyoti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nbv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Add Customer button clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="addNewCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.AS.testcases.AddCustomer@687080dc]" name="addNewCustomer" duration-ms="718" started-at="2019-11-25T14:50:25Z" data-provider="dp" finished-at="2019-11-25T14:50:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prasad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nhg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Add Customer button clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="addNewCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.AS.testcases.AddCustomer@687080dc]" name="addNewCustomer" duration-ms="807" started-at="2019-11-25T14:50:26Z" data-provider="dp" finished-at="2019-11-25T14:50:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[subhash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bnvbnv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Add Customer button clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+      </class> <!-- com.AS.testcases.AddCustomer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
